@@ -1,6 +1,6 @@
 ---
 title: "Lab 00 - Hello IDS!"
-author: "INSERT YOUR NAME HERE"
+author: "Sam Jones"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+It shows a bar chart of all the members' favourite numbers 1-10 
 
 ### Exercises 19
 
@@ -59,7 +59,8 @@ p1 + labs(x = "hello",
           title = "testing")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+
+It allows me to change the labels of the x and y axes and the title of the graph
 
 ### Exercise 20
 
@@ -69,4 +70,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+I think a line graph would be a better way of representing this data because it is more visually pleasing than a bar chart in this case. i don't agree with the y-axis count going up in 0.25's because there will only be whole number counts in this graph
